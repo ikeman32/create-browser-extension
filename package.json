@@ -1,5 +1,5 @@
 {
-  "name": "create-browser-extension",
+  "name": "cbe",
   "version": "1.0.0",
   "description": "Boilerplate for creating a browser extension.",
   "main": "cbe.js",
