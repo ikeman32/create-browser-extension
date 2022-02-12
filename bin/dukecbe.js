@@ -10,10 +10,10 @@ const rl = readline.createInterface({
 rl.question("What is the extention name? ", async function (answer) {
     
   rl.question("Enter a description ", async function (Description) {
-    const src = "./tmp/";
-    const dest = `./${answer}/`;
-    const ff = `./${answer}/firefox/manifest.json`;
-    const chrome = `./${answer}/chrome/manifest.json`;
+    const src = "../tmp/";
+    const dest = `../${answer}/`;
+    const ff = `../${answer}/firefox/manifest.json`;
+    const chrome = `../${answer}/chrome/manifest.json`;
     // With promises
     fse
       .copy(src, dest)
