@@ -1,6 +1,6 @@
 {
   "name": "dukecbe",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Boilerplate for creating a browser extension.",
   "main": "./bin/dukecbe.js",
   "bin": {

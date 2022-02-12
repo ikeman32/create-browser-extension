@@ -1,8 +1,8 @@
-const fse = require("fs-extra");
-const readline = require("readline");
-const editJsonFile = require("edit-json-file");
+import { copy } from "fs-extra";
+import { createInterface } from "readline";
+import editJsonFile from "edit-json-file";
 
-const rl = readline.createInterface({
+const rl = createInterface({
   input: process.stdin,
   output: process.stdout,
 });
@@ -15,8 +15,7 @@ rl.question("What is the extention name? ", async function (answer) {
     const ff = `../${answer}/firefox/manifest.json`;
     const chrome = `../${answer}/chrome/manifest.json`;
     // With promises
-    fse
-      .copy(src, dest)
+    copy(src, dest)
       .then(() => {
         editManifest(ff, chrome, answer, Description);
         console.log("Done");
