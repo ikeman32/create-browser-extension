@@ -1,0 +1,20 @@
+{
+    "name": "",
+    "version": "1.0.0",
+    "description": "",
+    "background": {
+        "serviceworker": ["js/index.js"]
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "images/favicon16.png",
+            "32": "images/favicon32.png",
+            "48": "images/favicon48.png",
+            "180": "images/apple180.png",
+            "192": "images/android192.png",
+            "512": "images/android512.png"
+        }
+    },
+    "manifest_version": 3
+}

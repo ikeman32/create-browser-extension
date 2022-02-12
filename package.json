@@ -1,0 +1,15 @@
+{
+  "name": "create-browser-extension",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating a browser extension.",
+  "main": "cbe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David H Isakson",
+  "license": "MIT",
+  "dependencies": {
+    "edit-json-file": "^1.7.0",
+    "fs-extra": "^10.0.0"
+  }
+}
