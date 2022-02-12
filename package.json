@@ -2,12 +2,28 @@
   "name": "cbe",
   "version": "1.0.0",
   "description": "Boilerplate for creating a browser extension.",
-  "main": "cbe.js",
+  "bin" : {
+    "cbe": "./cbe.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikeman32/create-browser-extension.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "boilerplate",
+    "extension",
+    "browser"
+  ],
   "author": "David H Isakson",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikeman32/create-browser-extension"},
+  "homepage": "https://github.com/ikeman32/create-browser-extension#readme",
   "dependencies": {
     "edit-json-file": "^1.7.0",
     "fs-extra": "^10.0.0"
